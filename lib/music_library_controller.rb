@@ -91,7 +91,7 @@ class MusicLibraryController
       puts "Which song number would you like to play?"
       input = nil
       if input >= 1 && input <= list_songs.size
-        input = gets.to_i 
+        input = gets.to_i
       end
       binding.pry
       # loop do
