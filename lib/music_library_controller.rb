@@ -89,9 +89,9 @@ class MusicLibraryController
 
     def play_song
       puts "Which song number would you like to play?"
-      input = gets.to_i unless input != nil input >= 1 && input <= list_songs.size
+      input = gets.to_i if input >= 1 && input <= list_songs.size
       puts "Playing #{list_songs[input]}"
-      
+
     end
 
 
